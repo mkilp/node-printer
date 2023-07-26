@@ -50,4 +50,4 @@ jobs:
       - run: npm i
       - name: Prebuild
         run: |
-          npm run prebuild -- --strip -r node -r electron -t 113 --arch x64
+          npm run prebuild -- --strip -r electron -t 113 --arch x64
